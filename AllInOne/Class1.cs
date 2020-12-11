@@ -7,6 +7,7 @@ namespace AllInOne
 {
 	public class Main
 	{
-		
+		public string GetName() => this.GetType().FullName;
+			
 	}
 }

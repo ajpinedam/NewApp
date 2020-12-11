@@ -8,6 +8,7 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-		<TextBlock Text="Hello, world!" Margin="20" FontSize="30" />
+		<TextBlock x:Name="MainLabel" Text="Hello, world!" Margin="20" FontSize="30" />
+        <Image Source="wasmlogo.jpg" />
     </Grid>
 </Page>

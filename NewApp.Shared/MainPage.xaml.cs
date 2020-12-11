@@ -25,6 +25,8 @@ namespace NewApp
         public MainPage()
         {
             this.InitializeComponent();
+
+            MainLabel.Text = new AllInOne.Main().GetName();
         }
     }
 }
